@@ -17,8 +17,6 @@ struct graph {
     struct adjacentListTable adjacent_list_table[MAX_NODES];
 };
 
-
-
 void graphInit(struct graph *graph) {
     graph->num_nodes = 0;
     for(int i = 0; i < MAX_NODES; i++) {
