@@ -177,21 +177,21 @@ void main()
     binaryTree_init();
     binaryTreeNode_t *node1 = createBinaryTreeNode(9);
     binaryTreeNode_t *node2 = createBinaryTreeNode(4);
-    binaryTreeNode_t *node3 = createBinaryTreeNode(20);
-    binaryTreeNode_t *node4 = createBinaryTreeNode(1);
-    binaryTreeNode_t *node5 = createBinaryTreeNode(6);
-    binaryTreeNode_t *node6 = createBinaryTreeNode(15);
-    binaryTreeNode_t *node7 = createBinaryTreeNode(170);
+    // binaryTreeNode_t *node3 = createBinaryTreeNode(20);
+    // binaryTreeNode_t *node4 = createBinaryTreeNode(1);
+    // binaryTreeNode_t *node5 = createBinaryTreeNode(6);
+    // binaryTreeNode_t *node6 = createBinaryTreeNode(15);
+    // binaryTreeNode_t *node7 = createBinaryTreeNode(170);
 
     binaryTree_insert(node1);
     binaryTree_insert(node2);
-    binaryTree_insert(node3);
-    binaryTree_insert(node4);
-    binaryTree_insert(node5);
-    binaryTree_insert(node6);
-    binaryTree_insert(node7);
+    // binaryTree_insert(node3);
+    // binaryTree_insert(node4);
+    // binaryTree_insert(node5);
+    // binaryTree_insert(node6);
+    // binaryTree_insert(node7);
 
-    binaryTree_delete(node4);
+    binaryTree_delete(node2);
 
     binaryTree_print(root);
 }
